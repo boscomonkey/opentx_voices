@@ -23,6 +23,7 @@ end
 # cycle through each line of the CSV using semi-colon as the column separator
 csv = CSV.open(csv_fname, col_sep:';')
 csv.each do |path, file, phrase|
+  next if path.nil? || file.nil? || phrase.nil?
   puts phrase
 
   aiff_dir = "#{aiff_topdir}/#{path}"
