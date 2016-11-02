@@ -13,7 +13,9 @@ csv_fname = ARGV[0]
 # grab voice from environment variable VOICE
 voice_personality = ENV['VOICE']
 voice_arg = voice_personality.nil? ? "" : "-v #{voice_personality}"
-unless voice_personality.nil?
+if voice_personality.nil?
+  system("say Using default voice personality")
+else
   system("say #{voice_arg} Using voice personality: #{voice_personality}") or exit 1
 end
 
