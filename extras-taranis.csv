@@ -1,0 +1,9 @@
+SOUNDS/en;airmode.wav;air mode!
+SOUNDS/en;armed.wav;armed
+SOUNDS/en;disarmed.wav;disarmed!
+SOUNDS/en;battcrit.wav;battery critical!
+SOUNDS/en;battlow.wav;battery low!
+SOUNDS/en;fail-enb.wav;failsafe!, on
+SOUNDS/en;fail-off.wav;failsafe!, off
+SOUNDS/en;fm-angl.wav;flight mode!, angle
+SOUNDS/en;fm-hori.wav;flight mode!, horizon
