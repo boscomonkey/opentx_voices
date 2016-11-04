@@ -5,7 +5,7 @@
 # be easily accomplished via Homebrew.
 
 require 'csv'
-require 'tmpdir'
+require 'fileutils'
 
 # grab the CSV filename from first command line arg
 csv_fname = ARGV[0]
@@ -21,26 +21,16 @@ end
 
 # cycle through each line of the CSV using semi-colon as the column separator
 csv = CSV.open(csv_fname, col_sep:';')
+csv.each do |path, file, phrase|
+  next if path.nil? || file.nil? || phrase.nil?
+  puts phrase
 
-# output temporary text-to-speech AIFF files
-Dir.mktmpdir("opentx_voices") {|aiff_tmpdir|
-  csv.each do |path, file, phrase|
-    next if path.nil? || file.nil? || phrase.nil?
-    puts phrase
+  output_path = "output/#{voice_personality}/#{path}"
+  FileUtils.mkpath(output_path) unless Dir.exists?(output_path)
 
-    aiff_dir = "#{aiff_tmpdir}/#{path}"
-    `mkdir -p #{aiff_dir}`
+  wav_file = "#{output_path}/#{file}"
+  system("say #{voice_arg} -o #{wav_file} --data-format=LEI16@32000 #{phrase}")
+  puts wav_file
 
-    aiff_file = "#{aiff_dir}/#{file}.aiff"
-    system("say #{voice_arg} -o #{aiff_file} #{phrase}")
-    puts aiff_file
-
-    output_path = "output/#{voice_personality}/#{path}"
-    `mkdir -p #{output_path}`
-    wav_file = "#{output_path}/#{file}"
-    puts wav_file
-
-    system("ffmpeg -y -i #{aiff_file} -ar 16000 #{wav_file}")
-    puts
-  end
-}
+  puts
+end
