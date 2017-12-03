@@ -7,3 +7,11 @@ SOUNDS/en;fail-enb.wav;failsafe!, on
 SOUNDS/en;fail-off.wav;failsafe!, off
 SOUNDS/en;fm-angl.wav;flight mode!, angle
 SOUNDS/en;fm-hori.wav;flight mode!, horizon
+
+SOUNDS/en;blackera.wav;blackbox erase
+SOUNDS/en;blackoff.wav;blackbox off
+SOUNDS/en;blackon.wav;blackbox on
+SOUNDS/en;prearmed.wav;pre-arm\'ed
+SOUNDS/en;turtlmod.wav;turtle mode
+SOUNDS/en;turtloff.wav;turtle mode off
+SOUNDS/en;turtlon.wav;turtle mode on
