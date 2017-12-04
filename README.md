@@ -19,12 +19,12 @@ _These examples assumes your are cd'ed into the `opentx_voices` directory._
 ./opentx_voices.rb english-taranis.csv
 ```
 
-######OpenTX 2.1 plus Betaflight
+###### OpenTX 2.1 plus Betaflight ######
 ```
 ./opentx_voices.rb english-taranis.csv betaflight.csv
 ```
 
-######OpenTX 2.1 plus Betaflight plus your personal greeting
+###### OpenTX 2.1 plus Betaflight plus your personal greeting ######
 Included in this distribution is a sample greeting SSV file named `personal.csv.sample`. Make a copy of this file, name it `personal.csv`, and edit the content to reflect your name/handle/moniker instead of the first U.S. president.
 ```
 ./opentx_voices.rb english-taranis.csv betaflight.csv personal.csv
