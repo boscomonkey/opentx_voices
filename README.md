@@ -31,6 +31,14 @@ Included in this distribution is a sample greeting SSV file named `personal.csv.
 ```
 
 
-## Changing Voices
+## Mac OS X Voices
 
-If you want to use a different voice to generate your sound tracks, follow these [directions](https://www.google.com/search?q=mac+os+x+change+default+voice) to change the default voice on your Macintosh.
+If you want to use a different voice to generate your sound tracks, follow these directions to change the default voice on your Macintosh - [https://www.google.com/search?q=mac+os+x+change+default+voice](https://www.google.com/search?q=mac+os+x+change+default+voice)
+
+Here's a hint about removing voices from your Macintosh - [http://osxdaily.com/2011/07/29/delete-voices-mac-os-x-lion/](http://osxdaily.com/2011/07/29/delete-voices-mac-os-x-lion/)
+
+
+## History
+
+2017/12/04
+: Initial draft
