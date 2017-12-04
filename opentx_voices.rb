@@ -11,7 +11,7 @@ require 'fileutils'
 if ARGV.length == 0
   STDERR.puts <<EOF
 
-Usage: #{$0} CSVFILE0 [CSVFILE1 ... [CSVFILEn]]
+Usage: #{$0} SSVFILE0 [SSVFILE1 ... [SSVFILEn]]
 
 Script to generate voice tracks for OpenTX voice tracks on a
 Macintosh.
