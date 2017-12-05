@@ -14,20 +14,34 @@ An example of a SSV voice file is `english-taranis.csv` provided under the Taran
 
 _These examples assumes your are cd'ed into the `opentx_voices` directory._
 
-###### OpenTX 2.1 voices ######
+###### Standard OpenTX voices ######
+For version 2.1, use this command:
 ```
-./opentx_voices.rb english-taranis.csv
+./opentx_voices.rb ver2.1/en-US-taranis.csv
+```
+For version 2.2, use a different voice file:
+```
+./opentx_voices.rb ver2.2/en-US-taranis.csv
 ```
 
-###### OpenTX 2.1 plus Betaflight ######
+###### Standard OpenTX plus Betaflight ######
+For version 2.1, use this command:
 ```
-./opentx_voices.rb english-taranis.csv betaflight.csv
+./opentx_voices.rb ver2.1/en-US-taranis.csv betaflight.csv
+```
+For version 2.2:
+```
+./opentx_voices.rb ver2.2/en-US-taranis.csv betaflight.csv
 ```
 
-###### OpenTX 2.1 plus Betaflight plus your personal greeting ######
-Included in this distribution is a sample greeting SSV file named `personal.csv.sample`. Make a copy of this file, name it `personal.csv`, and edit the content to reflect your name/handle/moniker instead of the first U.S. president.
+###### Standard OpenTX plus Betaflight plus your personal greeting ######
+Included in this distribution is a sample greeting SSV file named `personal.csv.sample`. Make a copy of this file, name it `personal.csv`, and edit the content to reflect your name/handle/moniker instead of the first U.S. president. For OpenTX version 2.1:
 ```
-./opentx_voices.rb english-taranis.csv betaflight.csv personal.csv
+./opentx_voices.rb ver2.1/en-US-taranis.csv betaflight.csv personal.csv
+```
+For version 2.2:
+```
+./opentx_voices.rb ver2.2/en-US-taranis.csv betaflight.csv personal.csv
 ```
 
 
