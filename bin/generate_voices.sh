@@ -23,7 +23,7 @@ for version in ver2.1 ver2.2; do
 
         # clean out voice track directory so versions 2.1 and 2.2 don't collide
         [ -d "$VOICEDIR" ] && rm -rf "$VOICEDIR"
-        VOICE="$vv" ./opentx_voices.rb $version/standard-tracks.csv betaflight.csv
+        VOICE="$vv" ./opentx_voices.rb $version/en-US-taranis.csv betaflight.csv
 
         # release directory is off top dir, plus lang, plus OpenTX version
         #	- assume en for time being
