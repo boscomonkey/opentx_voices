@@ -1,17 +1,19 @@
-SOUNDS/en;airmod.wav;air mode!
+SOUNDS/en;airmode.wav;air mode!
 SOUNDS/en;armed.wav;armmmmmed;# purposefully misspelled to stretch out the ARMMMMM
-SOUNDS/en;batcri.wav;battery critical!
-SOUNDS/en;batlow.wav;battery low!
-SOUNDS/en;disarm.wav;disarmed!
-SOUNDS/en;failof.wav;failsafe!, off
-SOUNDS/en;failon.wav;failsafe!, on
-SOUNDS/en;fm-ang.wav;flight mode!, angle
-SOUNDS/en;fm-hor.wav;flight mode!, horizon
+SOUNDS/en;battcrit.wav;battery critical!
+SOUNDS/en;battlow.wav;battery low!
+SOUNDS/en;disarmed.wav;disarmed!
+SOUNDS/en;fail-enb.wav;failsafe!, on
+SOUNDS/en;fail-off.wav;failsafe!, off
+SOUNDS/en;fm-angl.wav;flight mode!, angle
+SOUNDS/en;fm-hori.wav;flight mode!, horizon
 
-SOUNDS/en;bb-era.wav;blackbox erase
-SOUNDS/en;bb-off.wav;blackbox off
-SOUNDS/en;bl-on.wav;blackbox on
-SOUNDS/en;prearm.wav;pre-arm\'ed
-SOUNDS/en;tt-off.wav;turtle mode off
-SOUNDS/en;tt-on.wav;turtle mode on
-SOUNDS/en;ttmode.wav;turtle mode
+SOUNDS/en;blackera.wav;blackbox erase
+SOUNDS/en;blackoff.wav;blackbox off
+SOUNDS/en;blackon.wav;blackbox on
+
+SOUNDS/en;prearmed.wav;pre-arm\'ed
+
+SOUNDS/en;turtlmod.wav;turtle mode
+SOUNDS/en;turtloff.wav;turtle mode off
+SOUNDS/en;turtlon.wav;turtle mode on
