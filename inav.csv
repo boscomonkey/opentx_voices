@@ -1,7 +1,8 @@
 SOUNDS/en;anglmode.wav;angle mode
 SOUNDS/en;autotrim.wav;servo auto trim
 SOUNDS/en;autotune.wav;autotune
-SOUNDS/en;fm-manual.wav;flight mode, manual
+SOUNDS/en;fm-man.wav;flight mode, manual
+SOUNDS/en;manual.wav;manual mode
 SOUNDS/en;osd-alt1.wav;O.S.D., alt 1
 SOUNDS/en;osd-alt2.wav;O.S.D., alt 2
 SOUNDS/en;osd-alt3.wav;O.S.D., alt 3
