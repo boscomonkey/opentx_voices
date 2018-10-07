@@ -34,14 +34,26 @@ For version 2.2:
 ./opentx_voices.rb ver2.2/en-US-taranis.csv betaflight.csv
 ```
 
-###### Standard OpenTX plus Betaflight plus your personal greeting ######
+###### Standard OpenTX plus iNav ######
+There is now a small set of tracks for iNav
+
+For version 2.1 of OpenTX, use this command:
+```
+./opentx_voices.rb ver2.1/en-US-taranis.csv inav.csv
+```
+For version 2.2 of OpenTx:
+```
+./opentx_voices.rb ver2.2/en-US-taranis.csv inav.csv
+```
+
+###### Standard OpenTX, plus Betaflight, plus iNav, plus your personal greeting ######
 Included in this distribution is a sample greeting SSV file named `personal.csv.sample`. Make a copy of this file, name it `personal.csv`, and edit the content to reflect your name/handle/moniker instead of the first U.S. president. For OpenTX version 2.1:
 ```
-./opentx_voices.rb ver2.1/en-US-taranis.csv betaflight.csv personal.csv
+./opentx_voices.rb ver2.1/en-US-taranis.csv betaflight.csv inav.csv personal.csv
 ```
 For version 2.2:
 ```
-./opentx_voices.rb ver2.2/en-US-taranis.csv betaflight.csv personal.csv
+./opentx_voices.rb ver2.2/en-US-taranis.csv betaflight.csv inav.csv personal.csv
 ```
 
 
@@ -53,6 +65,12 @@ Here's a hint about removing voices from your Macintosh - [http://osxdaily.com/2
 
 
 ## History
+
+2018/10/07
+: Added PID & rate profiles from 1 through 9
+
+2018/09/22
+: Added a few iNav tracks
 
 2017/12/04
 : Initial draft
